@@ -162,7 +162,7 @@ ax.plot_surface(xCombined, yCombined, zCombined, rstride=1, cstride=1,
 ax.set_xlabel('Slip Ratio')
 ax.set_ylabel('Slip Angle')
 ax.set_zlabel('longitudinal Force')
-plt.savefig('Combined Grip.png')
+plt.savefig('Traction Circle.png')
 plt.show()
 
 # ax = plt.axes(projection='3d')
